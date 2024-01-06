@@ -66,7 +66,6 @@ class App extends Component {
                     auth_info: this.auth_info,
                     signout: this.signOut,
                     loggedIn: this.loggedIn,
-                    loggedIn: this.loggedIn,
                   }}
                 />
               </div>

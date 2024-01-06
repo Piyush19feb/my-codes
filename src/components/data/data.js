@@ -1,8 +1,9 @@
 // // component To export json data
 import axios from "axios";
-const { REACT_APP_BACKEND_SITE } = process.env;
 
+const { REACT_APP_BACKEND_SITE } = process.env;
 // const site = REACT_APP_BACKEND_SITE;
+
 const site = "http://localhost:4000/";
 
 const backend_addresses = {
