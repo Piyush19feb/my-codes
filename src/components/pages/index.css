@@ -1,0 +1,11 @@
+.pages-wrap {
+    background-color: aliceblue;
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.page {
+    background-color: rgba(57, 236, 236, 0);
+    border: 3px solid#8a61fa;
+}

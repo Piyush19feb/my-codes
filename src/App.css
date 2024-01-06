@@ -1,0 +1,37 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
+.top-wrapper {
+  background-color: rgb(33, 24, 53);
+  height: 41px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-wrapper-title {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 20px;
+}
+.main-wrapper {
+  height: calc(100vh - 41px);
+}
+
+#Admin-Section {
+  height: 100%;
+  width: 100%;
+}
+
+.login-page {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}

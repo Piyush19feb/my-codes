@@ -1,0 +1,162 @@
+.leetcode-body {
+    display: flex;
+    justify-content: center;
+}
+.leetcode-container {
+    width: auto;
+    min-width: 90%;
+}
+.leetcode-tools {
+    display: block;
+    justify-content: center;
+}
+.leetcode-tool-buttons {
+    display: flex;
+    justify-content: center;
+    /* margin: 5px 5px 5px 5px; */
+}
+.problem-info-inline {
+    display: flex;
+    justify-content: space-between;
+}
+.leetcode-problem_info-active {
+    display: flex;
+    justify-content: space-between
+}
+.leetcode-problem_info-block {
+    display: none;
+    /* display: flex; */
+    justify-content: space-between
+}
+.problem-info-details {
+    width: 50%;
+    font-size: 13px;
+}
+.problem-solutions {
+    width: 50%;
+    max-width: 80%;
+}
+.form-check-label {
+    padding: 0 4px 0 5px;
+}
+.task-tags {
+    display: flex;
+    align-items: center;
+}
+.task-tag {
+    display: flex;
+    align-items: center;
+    padding: 0 2px 0 2px;
+}
+.task-subtask-block {
+    display: none;
+}
+/* body {
+    background: #eee
+} */
+
+.icons i {
+    color: #b5b3b3;
+    border: 1px solid #b5b3b3;
+    padding: 6px;
+    margin-left: 4px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.leetcode-header {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    /* text-decoration-color: #eee; */
+    /* background-color: #57bde6; */
+    color: #ffffff;
+    font-size: larger;
+}
+
+.list-group li {
+    margin-bottom: 12px
+}
+
+.list-group-item {}
+
+.list li {
+    list-style: none;
+    padding: 4px;
+    border: 1px solid #e3dada;
+    margin-top: 8px;
+    border-radius: 5px;
+    background: #fff;
+    /* display: flex; */
+  
+}
+body {
+    background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
+}
+
+@keyframes gradient { 
+       0%{background-position:0 0}
+       100%{background-position:100% 0}
+     }
+
+.leetcode-new-problem-add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+
+
+.leetcode-input-style {
+    background: linear-gradient(to right, #B294FF, #57bde6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+    margin: 0px 6px 2px 0px;
+    border-radius: 10%;
+    width: 15% ;
+}
+.leetcode-search {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+#problem-search-box {
+    width: 250px;
+}
+
+#problem-no {
+   width : 40px
+}
+#problem-title {
+   width : 350px
+}
+.leetcode-input-style input {
+    /* border-radius:5%; */
+    border-bottom: none;
+    margin-bottom: 3px;
+    width: 100%;
+    background: rgba(57, 63, 84, 0.8);;
+}
+
+.editor_local {
+        font-family: sans-serif;
+        font-size:medium;
+        max-width: 100%;
+        margin: 1rem 1rem 1rem 1rem ;
+        padding: 0.5rem;
+        border: 1px solid #999;
+}
+
+.problem-solution-adder {
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+}
+.list li .dropdown {
+    display: flex;
+}
+.code-input {
+    min-height: 200px;
+    width: 85%;
+}
