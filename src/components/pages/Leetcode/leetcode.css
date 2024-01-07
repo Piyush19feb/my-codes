@@ -18,6 +18,7 @@
 .problem-info-inline {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .leetcode-problem_info-active {
     display: flex;
